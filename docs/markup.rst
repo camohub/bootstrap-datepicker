@@ -23,7 +23,7 @@ Adding the ``date`` class to an ``input-group`` bootstrap component will allow t
 
 .. code-block:: html
 
-    <div class="input-group date">
+    <div class="input-group date" data-provide="datepicker">
         <input type="text" class="form-control" value="12-02-2012">
         <div class="input-group-addon">
             <span class="glyphicon glyphicon-th"></span>
